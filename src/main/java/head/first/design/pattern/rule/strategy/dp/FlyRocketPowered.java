@@ -1,5 +1,8 @@
 package head.first.design.pattern.rule.strategy.dp;
 
+/**
+ * 로켓으로 날아다님
+ */
 public class FlyRocketPowered implements FlyBehavior {
     @Override
     public void Fly() {
