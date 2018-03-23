@@ -1,7 +1,6 @@
 package head.first.design.pattern.rule.observer.impl;
 
 import head.first.design.pattern.rule.observer.dp.DisplayElement;
-
 import java.util.Observable;
 import java.util.Observer;
 
@@ -13,6 +12,7 @@ public class ForecastDisplay implements Observer, DisplayElement {
 		observable.addObserver(this);
 	}
 
+	@Override
 	public void update(Observable observable, Object arg) {
 		if (observable instanceof WeatherData) {
 			WeatherData weatherData = (WeatherData)observable;
@@ -22,6 +22,7 @@ public class ForecastDisplay implements Observer, DisplayElement {
 		}
 	}
 
+	@Override
 	public void display() {
 		System.out.print("Forecast: ");
 		if (currentPressure > lastPressure) {
