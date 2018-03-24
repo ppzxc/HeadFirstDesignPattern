@@ -1,6 +1,7 @@
-package head.first.design.pattern.rule.decorator.starbuzz.impl;
+package head.first.design.pattern.rule.decorator.old.starbuzz.impl;
 
-import head.first.design.pattern.rule.decorator.starbuzz.dp.*;
+import head.first.design.pattern.rule.decorator.old.starbuzz.dp.Beverage;
+import head.first.design.pattern.rule.decorator.old.starbuzz.dp.CondimentDecorator;
 
 public class Mocha extends CondimentDecorator {
     Beverage beverage;

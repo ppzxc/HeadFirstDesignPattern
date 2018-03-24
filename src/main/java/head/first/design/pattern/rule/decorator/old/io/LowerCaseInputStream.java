@@ -1,4 +1,4 @@
-package head.first.design.pattern.rule.decorator.io;
+package head.first.design.pattern.rule.decorator.old.io;
 
 import java.io.FilterInputStream;
 import java.io.IOException;

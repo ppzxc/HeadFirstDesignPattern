@@ -1,7 +1,12 @@
-package head.first.design.pattern.rule.decorator.starbuzz;
+package head.first.design.pattern.rule.decorator.old.starbuzz;
 
-import head.first.design.pattern.rule.decorator.starbuzz.impl.*;
-import head.first.design.pattern.rule.decorator.starbuzz.dp.*;
+import head.first.design.pattern.rule.decorator.old.starbuzz.dp.Beverage;
+import head.first.design.pattern.rule.decorator.old.starbuzz.impl.DarkRoast;
+import head.first.design.pattern.rule.decorator.old.starbuzz.impl.Espresso;
+import head.first.design.pattern.rule.decorator.old.starbuzz.impl.HouseBlend;
+import head.first.design.pattern.rule.decorator.old.starbuzz.impl.Mocha;
+import head.first.design.pattern.rule.decorator.old.starbuzz.impl.Soy;
+import head.first.design.pattern.rule.decorator.old.starbuzz.impl.Whip;
 
 /**
  *

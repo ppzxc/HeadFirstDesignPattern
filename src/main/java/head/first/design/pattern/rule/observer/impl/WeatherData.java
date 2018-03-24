@@ -3,12 +3,7 @@ package head.first.design.pattern.rule.observer.impl;
 import java.util.Observable;
 
 /**
- * Loose Coupling 느슨한 결합의 위력
- *
- * - 디자인 원칙 서로 상호작용을 하는 객체 사이에서는 가능하면 느슨하게 결합하는 디자인을 사용해야 한다.
- *
- * 느슨하게 결합하는 디자인을 사용하면 변경사항이 생겨도 무난히 처리할수 있는 유연한 객체지향 시스템을 구축할 수 있습니다. 객체 사이의 상호 의존성을 최소화할 수 있기
- * 때문이죠.
+ * 주제가 되는 기상 정보
  */
 public class WeatherData extends Observable {
     private float temperature;
@@ -51,10 +46,17 @@ public class WeatherData extends Observable {
 
     /**
      * 기상 관측값이 갱신될때마다 알려주기 위한 메소드
+     * - setChanged(), Observable 사용자가 노티파이 순간을 컨트롤하기 위해 지원.
+     *   - 내부 상태를 changed=true로 바꾼다.
+     *   - 상태가 바뀌었다는 내부 변수
+     *   - 해당 메소드로 언제 알릴지 세부적으로 컨트롤 가능하다
+     *   - 상태가 밀리세컨 단위로 보고되는 경우, 사용자가 해당 메소드로 컨트롤 가능
+     * - notifyObservers는 옵저버에게 알린다.
+     *   - notify는 changed를 체크 하며, 상태가 바뀐걸 체크한다.
      */
     public void measurementsChanged() {
-        setChanged(); // Observable 사용자가 노티파이 순간을 컨트롤하기 위해 지원
-        notifyObservers(); // 옵저버에게 알린다.
+        setChanged();
+        notifyObservers();
     }
 
     /**

@@ -1,6 +1,6 @@
-package head.first.design.pattern.rule.decorator.starbuzz.impl;
+package head.first.design.pattern.rule.decorator.old.starbuzz.impl;
 
-import head.first.design.pattern.rule.decorator.starbuzz.dp.*;
+import head.first.design.pattern.rule.decorator.old.starbuzz.dp.Beverage;
 
 public class HouseBlend extends Beverage {
 

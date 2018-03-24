@@ -1,4 +1,4 @@
-package head.first.design.pattern.rule.decorator.starbuzz.dp;
+package head.first.design.pattern.rule.decorator.old.starbuzz.dp;
 
 /**
  * 추상 클래스
