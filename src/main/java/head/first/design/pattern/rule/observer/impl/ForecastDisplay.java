@@ -4,10 +4,19 @@ import head.first.design.pattern.rule.observer.dp.DisplayElement;
 import java.util.Observable;
 import java.util.Observer;
 
+/**
+ * 똑같다.
+ * 옵저버와 디스플레이를 구현하며, 내부 세부적인 사항만 조금 다르다.
+ */
 public class ForecastDisplay implements Observer, DisplayElement {
 	private float currentPressure = 29.92f;
 	private float lastPressure;
 
+	/**
+	 * 생성자
+	 *
+	 * @param observable the observable
+	 */
 	public ForecastDisplay(Observable observable) {
 		observable.addObserver(this);
 	}

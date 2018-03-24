@@ -24,7 +24,7 @@ import head.first.design.pattern.rule.observer.impl.WeatherData;
  */
 public class WeatherStation {
     public static void main(String[] args) {
-        WeatherData weatherData = new WeatherData();
+        WeatherData weatherData = new WeatherData(); // 웨더 데이터는 구독의 주제가 된다.
 
         CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
         StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);

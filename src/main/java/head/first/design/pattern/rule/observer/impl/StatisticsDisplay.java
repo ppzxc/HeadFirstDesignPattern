@@ -4,12 +4,20 @@ import head.first.design.pattern.rule.observer.dp.DisplayElement;
 import java.util.Observable;
 import java.util.Observer;
 
+/**
+ * 고정 디스플레이
+ */
 public class StatisticsDisplay implements Observer, DisplayElement {
 	private float maxTemp = 0.0f;
 	private float minTemp = 200;
 	private float tempSum= 0.0f;
 	private int numReadings;
 
+	/**
+	 * 고정 디스플레이
+	 *
+	 * @param observable the observable
+	 */
 	public StatisticsDisplay(Observable observable) {
 		observable.addObserver(this);
 	}

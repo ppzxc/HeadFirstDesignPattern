@@ -4,9 +4,21 @@ import head.first.design.pattern.rule.observer.dp.DisplayElement;
 import java.util.Observable;
 import java.util.Observer;
 
+/**
+ * 체감온도 계산해 표시하는 클래스
+ */
 public class HeatIndexDisplay implements Observer, DisplayElement {
+
+    /**
+     * 초기값
+     */
     float heatIndex = 0.0f;
 
+    /**
+     * 생성자
+     *
+     * @param observable the observable
+     */
     public HeatIndexDisplay(Observable observable) {
         observable.addObserver(this);
     }
