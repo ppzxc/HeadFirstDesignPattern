@@ -3,9 +3,13 @@
 2018-01-19 : 1장 STRATEGY 스트래이트지 패턴    
 2018-01-22 : 2장 OBSERVER 옵저버 패턴    
 2018-01-23 : 3장 DECORATOR 데코레이터 패턴  
-2018-01-24 : 4장 FACTORY 팩토리 패턴  
+2018-01-24 : 4장 FACTORY 팩토리 패턴    
+  
 2018-03-20 : 1장부터 다시 시작.....ㅠㅠ
 2018-03-24 : 2장 복습! 블로그엔 포스팅 안함 [2장 Observer](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/observer)
+2018-03-24 : 3장 데코레이터, 장식한다. [3장 Decorator](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/decorator/v1)
+- 직접 자바 I/O를 확장해 데코레이터 패턴으로 장식해 내가 필요한 요소로 정의할수 있다.
+- 복잡해 질수 있음.. 주의점
 
 디자인 패턴
 ============
