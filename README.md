@@ -18,6 +18,7 @@
 2018-03-27 : 5장 싱글턴 [5장 싱글턴](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/singleton)                     
 2018-03-27 : 6장  커맨드 [6장 커맨드](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/command)             
 
+
 디자인 패턴
 ============
 
@@ -28,4 +29,6 @@
 디자인 원칙 2 - 구현이 아닌 인터페이스에 맞춰서 프로그래밍 한다.      
 디자인 원칙 3 - 상속보다는 구성을 활용한다.    
 디자인 원칙 4 - 서로 상호작용 하는 객체 사이에서는 가능하면 느슨하게 결합하는 디자인을 사용해야 한다.              
-디자인 원칙 5 - 추상화된 것에 의존하도록 만들어라. 구상 클래스에 의존하도록 만들지 않도록 한다.       
+디자인 원칙 5 - 추상화된 것에 의존하도록 만들어라. 구상 클래스에 의존하도록 만들지 않도록 한다.         
+
+커맨드 패턴 - 작업 처리 로직과 작업의 종류를 분리 시킬 수 있음, 빗대어 얘기하자면 Thread Pool, 작업 종류는 상관하지 않고 규칙에 맞춰 들어온 작업만 수행 시키는 스레드풀. 즉, 작업 처리 로직과 작업의 종류를 분리 시켜 느슨한 결합을 완성하고, 달라지는 부분을 캡슐화 시킬 수 있다.             

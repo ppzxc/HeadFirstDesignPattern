@@ -1,0 +1,27 @@
+/*
+ * Copyright (c) 2018. JeongHa, Cho
+ */
+
+package head.first.design.pattern.rule.command.v3.remoteWl;
+
+public class TV {
+	String location;
+	int channel;
+
+	public TV(String location) {
+		this.location = location;
+	}
+
+	public void on() {
+		System.out.println("TV is on");
+	}
+
+	public void off() {
+		System.out.println("TV is off");
+	}
+
+	public void setInputChannel() {
+		this.channel = 3;
+		System.out.println("Channel is set for VCR");
+	}
+}
