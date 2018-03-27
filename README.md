@@ -8,13 +8,15 @@
 2018-03-20 : 1장부터 다시 시작.....ㅠㅠ
 2018-03-24 : 2장 복습! 블로그엔 포스팅 안함 [2장 Observer](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/observer)    
 2018-03-24 : 3장 데코레이터, 장식한다. [3장 Decorator](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/decorator/v1)     
-- 직접 자바 I/O를 확장해 데코레이터 패턴으로 장식해 내가 필요한 요소로 정의할수 있다.
-- 복잡해 질수 있음.. 주의점
-2018-03-25 : 4장 팩토리 패턴, 의존성 뒤집기 원칙.. [4장 팩토리 패턴, 추상 팩토리](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/factory/v3)            
-- 팩토리 메소드 패턴은 객체를 생성하기 위한 인터페이스를 만들고, 어떤 클래스의 인스턴스를 만들지는 서브클래스에서 결정하도록 한다. 팩토리 메소드를 사용하면 인스턴스를 만드는 일을 서브클래스로 미룰 수 있다.                            
-- 추상 팩토리 패턴에서는 인터페이스를 이용하여 서로 연관된, 또는 의존하는 객체를 구상 클래스를 지정하지 않고도 생성할 수 있다.
-2018-03-27 : 5장 싱글턴 [5장 싱글턴](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/singleton)        
-2018-03-27 : 6장  커맨드 [6장 커맨드](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/command)
+ - 직접 자바 I/O를 확장해 데코레이터 패턴으로 장식해 내가 필요한 요소로 정의할수 있다.         
+ - 복잡해 질수 있음.. 주의점        
+
+2018-03-25 : 4장 팩토리 패턴, 의존성 뒤집기 원칙.. [4장 팩토리 패턴, 추상 팩토리](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/factory/v3)                  
+- 팩토리 메소드 패턴은 객체를 생성하기 위한 인터페이스를 만들고, 어떤 클래스의 인스턴스를 만들지는 서브클래스에서 결정하도록 한다. 팩토리 메소드를 사용하면 인스턴스를 만드는 일을 서브클래스로 미룰 수 있다.                                          
+- 추상 팩토리 패턴에서는 인터페이스를 이용하여 서로 연관된, 또는 의존하는 객체를 구상 클래스를 지정하지 않고도 생성할 수 있다.                    
+
+2018-03-27 : 5장 싱글턴 [5장 싱글턴](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/singleton)                     
+2018-03-27 : 6장  커맨드 [6장 커맨드](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/command)             
 
 디자인 패턴
 ============
