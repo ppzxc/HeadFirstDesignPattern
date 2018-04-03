@@ -16,7 +16,8 @@
 - 추상 팩토리 패턴에서는 인터페이스를 이용하여 서로 연관된, 또는 의존하는 객체를 구상 클래스를 지정하지 않고도 생성할 수 있다.                    
 
 2018-03-27 : 5장 싱글턴 [5장 싱글턴](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/singleton)                     
-2018-03-27 : 6장  커맨드 [6장 커맨드](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/command)             
+2018-03-27 : 6장  커맨드 [6장 커맨드](https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/command)
+2018-04-03 : 7장 어댑터 [7장 어댑터]((https://github.com/JungHa-Cho/HeadFirstDesignPattern/tree/master/src/main/java/head/first/design/pattern/rule/adapter))                              
 
 
 
